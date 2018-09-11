@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAVE IO</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>
+                    <img src="me.jpg" width="100" height="100" alt="" class="selfie">
+                </h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p class="time"> <!-- filled in dynamically --> </p>
+                <!-- <li class="active">
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Home 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+
+                <!-- <li>
+                    <a href="#">About</a>
+                </li> -->
+
+                <!-- <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">Page 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Page 3</a>
+                        </li>
+                    </ul>
+                </li> -->
+
+                <!-- <li>
+                    <a href="#">Portfolio</a>
+                </li> -->
+
+                <!-- <li>
+                    <a href="#">Contact</a>
+                </li> -->
+
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+            <nav id="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light" style="display:none;">
+                <div class="container-fluid">
+                    <span class="time" style="color:rgba(0,0,0,0.4);"> <!-- filled in dynamically --> </span>
+                    <!-- will use later -->
+                    <!-- <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                        <i style="display: none;" class="fas fa-times"></i>
+                    </button> -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <!--  will use this later -->
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <h2 class="le-selfie"> <img src="me.jpg" width="100" height="100" alt="" class="mobile-selfie" style="display: none;"> </h2>
+            <h4 class="greeting">HI</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="line"></div>
+            <h3>Connect With Me</h3>
+
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+    /********************WELCOME TO MY PAGE********************/
+    for (var i = 0; i < 15; i++) {
+        var pascal = '';
+        for (var j = 0; j < 15 - i; j++) {
+            pascal += ' ';
+        }
+        for (var k = 0; k <= i; k++) {
+            pascal += '. ';
+        }
+        console.log(pascal);
+    }
+    console.log( 'WELCOME TO MY SITE ' + '\n' + new Date());
+    /********************WELCOME TO MY PAGE********************/
+
+/*USE THIS LATER NEED TO CREATE ROUTER FOR SINGLE PAGE INDEX*/
+
+/*    // display mobile nav
+    document.querySelector('.fa-align-justify').addEventListener('click', function () {
+        document.querySelector('.fa-align-justify').style.display = 'none';
+        document.querySelector('.fa-times').style.display = 'block';
+        document.querySelector('#navbarSupportedContent').style.display = 'block';
+    }, false);
+    // hide mobile nav
+    document.querySelector('.fa-times').addEventListener('click', function () {
+        document.querySelector('.fa-align-justify').style.display = 'block';
+        document.querySelector('.fa-times').style.display = 'none';
+        document.querySelector('#navbarSupportedContent').style.display = 'none';
+    }, false);*/
+
+    // 12 - hour clock and day
+    var timeAndDay = function () {
+        var elem = document.getElementsByClassName('time');
+        var date = new Date();
+        var day = date.getDay();
+        var daysOfTheWeek = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
+        var currDay = daysOfTheWeek[day];
+        var h = date.getHours();
+        var m = date.getMinutes();
+        var s = date.getSeconds();
+        var timeOfDay = (h < 12) ? 'AM' : 'PM';
+        h = (h > 12) ? h - 12 : h;
+        h = (h == 0) ? '12' : h;
+        m = (m < 10 ? '0' : '') + m;
+        s = (s < 10 ? '0' : '') + s;
+        for (var i = 0; i < elem.length; i++) {
+            elem[i].innerHTML = currDay + ', ' + h + ':' + m + ':' + s + ' ' + timeOfDay;
+        }
+    };
+    // initial call
+    timeAndDay();
+    // call every 1 sec
+    setInterval(timeAndDay,1000);
+
+    var greeting = function (elem, text) {
+        document.querySelector(elem).innerHTML = text;
+    };
+
+    setTimeout(greeting.bind(null, '.greeting', 'THERE'), 700);
+    setTimeout(greeting.bind(null, '.greeting', 'MY'), 1400);
+    setTimeout(greeting.bind(null, '.greeting', 'NAME'), 2100);
+    setTimeout(greeting.bind(null, '.greeting', 'IS'), 2800);
+    setTimeout(greeting.bind(null, '.greeting', 'DAVID'), 3500);
+    setTimeout(greeting.bind(null, '.greeting', 'AND'), 4200);
+    setTimeout(greeting.bind(null, '.greeting', 'WELCOME TO MY PAGE'), 4900);
+    setTimeout(greeting.bind(null, '.greeting', 'ABOUT ME'), 5900);
+
+</script>
+
+
+</body>
+</html>
+

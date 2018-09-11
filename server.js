@@ -4,11 +4,12 @@ const fs = require("fs");
 const port = 8080 || process.env.PORT;
 
 var mimeType = {
-    "plain" : "text/plain",
-    "html"  : "text/html",
-    "css"   : "text/css",
-    "jpg"   : "image/jpeg",
-    "ico"   : "image/x-icon"
+    "plain": "text/plain",
+    "html": "text/html",
+    "css": "text/css",
+    "jpg": "image/jpeg",
+    "png": "image/png",
+    "ico": "image/x-icon"
 };
 
 http.createServer(function (req, res) {

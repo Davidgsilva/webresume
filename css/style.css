@@ -1,7 +1,3 @@
-/*
-    DEMO STYLE
-*/
-
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {
     font-family: 'Poppins', sans-serif;
@@ -117,23 +113,6 @@ ul ul a {
     background: #6d7fcc;
 }
 
-ul.CTAs {
-    padding: 20px;
-}
-
-ul.CTAs a {
-    text-align: center;
-    font-size: 0.9em !important;
-    display: block;
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
-
 a.article,
 a.article:hover {
     background: #6d7fcc !important;
@@ -151,19 +130,32 @@ a.article:hover {
     transition: all 0.3s;
 }
 
+img {
+    background-repeat: no-repeat;
+}
+
+.time {
+    text-align: center;
+    position: relative;
+    left: -6px;
+}
+
 /* ---------------------------------------------------
     JPG
 ----------------------------------------------------- */
 .selfie {
     border-radius: 50%;
-    max-width: 100%;
+    width: 80%;
     height: auto;
     border: 0;
-    -ms-interpolation-mode: bicubic;
-    vertical-align: middle;
     position: relative;
-    left: 1.5rem;
+    left: 1.2rem;
 }
+
+.mobile-selfie {
+    display: none;
+}
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
@@ -180,15 +172,16 @@ a.article:hover {
         display: block !important;
     }
     .mobile-selfie {
+        display: inline;
         border-radius: 50%;
-        max-width: 100%;
-        height: auto;
-        border: 0;
-        vertical-align: middle;
-        display: inline !important;
+        position: relative;
+        float: right;
+        margin-bottom: 25px;
     }
-    .le-selfie,
     .greeting {
         text-align: center;
+    }
+    .work_img_teradek {
+        max-width: 80%;
     }
 }
